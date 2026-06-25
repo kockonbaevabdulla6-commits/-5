@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Жеке Портфолио</title>
+</head>
+<body>
+
+    <!-- Арткы пландагы неон жарыктар -->
+    <div class="glow-bg"></div>
+    <div class="glow-bg-2"></div>
+
+    <!-- 🏠 БАШКЫ БЕТ (HERO SECTION) -->
+    <header class="hero-section" id="top-page">
+        <div class="avatar-container">👨‍💻</div>
+        <div class="welcome-badge">Салам! 👋</div>
+        <h1>АБДУЛЛА <span class="gradient-text">Көчкөнбаев</span></h1>
+        
+        <!-- Интерактивдүү баскычтар -->
+        <div class="nav-buttons">
+            <button class="btn btn-primary" onclick="showSection('about', this)">Мен жөнүндө</button>
+            <button class="btn btn-outline" onclick="showSection('projects', this)">Долбоорлорум</button>
+            <button class="btn btn-outline" onclick="showSection('contact', this)">Байланыш</button>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- 👤 МЕН ЖӨНҮНДӨ БӨЛҮМҮ -->
+        <div id="about" class="tab-section active-section">
+            <section class="glass-card">
+                <h2 class="section-title">👤 Мен жөнүндө</h2>
+                <div class="about-content" style="font-size: 1.05rem; line-height: 1.7; color: #e2e8f0;">
+                    <p style="margin-bottom: 15px;">
+                        Салам! Менин атым Абдулла. Мен Веб жана мультимедиялык тиркемелерди иштеп чыгуу адистиги боюнча билим алып жаткан студентмин. Заманбап технологияларга кызыгып, веб-сайттарды түзүү жана дизайн иштеп чыгуу боюнча көндүмдөрүмдү өнүктүрүп келем. Максатым — кесипкөй адис болуп, пайдалуу жана заманбап санариптик долбоорлорду жаратуу.
+                    </p>
+                    <p style="margin-top: 0;">
+                        Жаңы билимдерди үйрөнүүгө, чыгармачылык менен техникалык көндүмдөрдү айкалыштырууга кызыгам. Ар бир жаңы тапшырма мен үчүн тажрыйба топтоого жана өзүмдү өнүктүрүүгө мүмкүнчүлүк болуп саналат.
+                    </p>
+                </div>
+
+                <!-- 🎓 Билим -->
+                <div class="education-box">
+                    <h3>🎓 Билим алуу</h3>
+                    <h4>Жумаш Раимкулов атындагы №67 кесиптик лицей</h4>
+                    <p class="edu-spec"><strong>Адистик:</strong> Веб жана мультимедиялык тиркемелерди иштеп чыгуу</p>
+                    <p>Бул адистик боюнча веб-сайттарды түзүү, интерфейс дизайны, мультимедиялык технологиялар жана программалоонун негиздери боюнча билим алып жатам.</p>
+                </div>
+            </section>
+
+            <!-- 💻 Көндүмдөр -->
+            <section class="skills-section">
+                <div class="glass-card flex-1">
+                    <h3 class="card-subtitle">💻 Техникалык көндүмдөр</h3>
+                    <div class="tags-container">
+                        <span class="tag tech">HTML5</span>
+                        <span class="tag tech">CSS3</span>
+                        <span class="tag tech">JavaScript (негиздери)</span>
+                        <span class="tag tech">Figma</span>
+                        <span class="tag tech">Microsoft Word</span>
+                        <span class="tag tech">Microsoft PowerPoint</span>
+                        <span class="tag tech">Компьютердик сабаттуулук</span>
+                    </div>
+                </div>
+                <div class="glass-card flex-1">
+                    <h3 class="card-subtitle">🌟 Жеке сапаттарым</h3>
+                    <div class="tags-container">
+                        <span class="tag personal">Жоопкерчилик</span>
+                        <span class="tag personal">Тактык</span>
+                        <span class="tag personal">Чыгармачылык</span>
+                        <span class="tag personal">Команда менен иштөө</span>
+                        <span class="tag personal">Жаңы нерселерди тез үйрөнүү</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 🎨 Хоббилер & 🎯 Максаттар -->
+            <section class="two-column">
+                <div class="glass-card">
+                    <h3 class="card-subtitle">🎨 Менин хоббилерим</h3>
+                    <p>Бош убактымды пайдалуу жана кызыктуу өткөргөндү жакшы көрөм. Музыка угуу, кино көрүү жана китеп окуу менин сүйүктүү хоббилеримдин бири болуп саналат.</p>
+                    <p>Ошондой эле сүрөт тартууга кызыгам. Бул мага чыгармачылык жөндөмдөрүмдү өнүктүрүүгө жардам берет. Спорт менен машыгып, өзгөчө волейбол ойногонду жакшы көрөм. Мындан тышкары TikTok жана YouTube платформаларынан пайдалуу жана кызыктуу видеолорду көрүп, жаңы маалыматтарды үйрөнөм.</p>
+                </div>
+                <div class="glass-card">
+                    <h3 class="card-subtitle">🎯 Максаттарым</h3>
+                    <ul class="goals-list">
+                        <li>Веб-иштеп чыгуу боюнча билимимди тереңдетүү</li>
+                        <li>Реалдуу долбоорлор менен иштөө</li>
+                        <li>Кесиптик тажрыйба топтоо</li>
+                        <li>Заманбап технологияларды өздөштүрүү</li>
+                        <li>Кесипкөй веб-разработчик болуу</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- 📂 ДОЛБООРЛОРУМ БӨЛҮМҮ (ШИЛТЕМЕЛЕР ЖАҢЫЛАНДЫ) -->
+        <div id="projects" class="tab-section">
+            <section style="width: 100%;">
+                <h2 class="section-title">📂 Долбоорлорум</h2>
+                <div class="projects-grid">
+                    
+                    <!-- 1-Долбоор: Математикалык оюн (Портфолионун ордуна) -->
+                    <a href="https://kockonbaevabdulla6-commits.github.io/Mathematical-game/" target="_blank" class="glass-card project-card">
+                        <div class="project-icon">🎮</div>
+                        <h3>Математикалык оюн</h3>
+                        <p>Логиканы жана зын кубатты өнүктүрүүчү, браузерде ойноло турган интерактивдүү математикалык веб-оюн.</p>
+                    </a>
+
+                    <!-- 2-Долбоор: Кыргызстан тарыхы -->
+                    <a href="https://kockonbaevabdulla6-commits.github.io/KT/" target="_blank" class="glass-card project-card">
+                        <div class="project-icon">🏫</div>
+                        <h3>Кыргызстан тарыхы</h3>
+                        <p>Кыргызстандын тарыхы, маанилүү окуялары жана маалыматтары камтылган веб-долбоор.</p>
+                    </a>
+
+                    <!-- 3-Долбоор: FOOTBALLSTARS -->
+                    <a href="https://kockonbaevabdulla6-commits.github.io/FOOTBALLSTARS2/" target="_blank" class="glass-card project-card">
+                        <div class="project-icon">⚽</div>
+                        <h3>FOOTBALLSTARS</h3>
+                        <p>Белгилүү футболчулар жана алардын жетишкендиктери жөнүндө маалыматтарды камтыган веб-сайт.</p>
+                    </a>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- 📞 БАЙЛАНЫШ БӨЛҮМҮ -->
+        <div id="contact" class="tab-section">
+            <section class="glass-card contact-section" style="width: 100%;">
+                <h2 class="section-title">📞 Байланыш</h2>
+                <div class="contact-grid">
+                    <div class="contact-item"><strong>Аты-жөнү:</strong> Абдулла</div>
+                    <div class="contact-item"><strong>Телефон:</strong> <a href="tel:+996505432009">+996 (505) 43-20-09</a></div>
+                    <div class="contact-item"><strong>Instagram:</strong> <a href="https://www.instagram.com/nur5ekovich__8?igsh=bmx5MG51eDFhMDZx&utm_source=qr" target="_blank">@nur5ekovich__8</a></div>
+                    <div class="contact-item"><strong>GitHub:</strong> <a href="https://github.com/kockonbaevabdulla6-commits" target="_blank">abdulla</a></div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ⬆️ БАШКЫ БЕТКЕ КАЙТУУ БАСКЫЧЫ -->
+        <div class="back-zone" style="margin-top: 20px;">
+            <a href="#top-page" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.85rem; border-radius: 20px;">▲ Башкы бетке кайтуу</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026</p>
+    </footer>
+
+    <!-- 📑 JAVASCRIPT ЛОГИКАСЫ -->
+    <script>
+    function showSection(sectionId, element) {
+        const sections = document.querySelectorAll('.tab-section');
+        sections.forEach(section => {
+            section.classList.remove('active-section');
+        });
+
+        const activeSection = document.getElementById(sectionId);
+        if (activeSection) {
+            activeSection.classList.add('active-section');
+        }
+
+        const buttons = document.querySelectorAll('.nav-buttons .btn');
+        buttons.forEach(btn => {
+            btn.classList.remove('btn-primary');
+            btn.classList.add('btn-outline');
+        });
+
+        element.classList.remove('btn-outline');
+        element.classList.add('btn-primary');
+    }
+    </script>
+
+    <!-- 🎨 CSS СТИЛДЕРИ -->
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #0f172a;
+        color: #f8fafc;
+        overflow-x: hidden;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .glow-bg, .glow-bg-2 {
+        position: fixed;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(99, 102, 241, 0.4) 0%, rgba(0,0,0,0) 70%);
+        top: 10%;
+        left: -5%;
+        z-index: 1;
+        filter: blur(50px);
+        pointer-events: none;
+    }
+    .glow-bg-2 {
+        background: radial-gradient(circle, rgba(236, 72, 153, 0.3) 0%, rgba(0,0,0,0) 70%);
+        top: 60%;
+        right: -5%;
+        left: auto;
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: 60px 20px 30px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .avatar-container {
+        font-size: 4rem;
+        margin-bottom: 15px;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    .welcome-badge {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 6px 16px;
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 0.9rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+    }
+
+    .gradient-text {
+        background: linear-gradient(135deg, #6366f1, #ec4899);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .nav-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+        color: white;
+        border: none;
+        box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    }
+
+    .btn-outline {
+        background: rgba(255, 255, 255, 0.05);
+        color: #cbd5e1;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-outline:hover {
+        background: rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 20px;
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        border-left: 4px solid #6366f1;
+        padding-left: 12px;
+    }
+
+    .education-box {
+        margin-top: 25px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .education-box h3 { color: #6366f1; margin-bottom: 10px;}
+    .education-box h4 { color: #e2e8f0; margin-bottom: 5px;}
+    .edu-spec { color: #94a3b8; margin-bottom: 10px; font-size: 0.95rem; }
+
+    .skills-section {
+        display: flex;
+        gap: 20px;
+    }
+    .flex-1 { flex: 1; }
+
+    .card-subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+        color: #ec4899;
+    }
+
+    .tags-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .tag {
+        padding: 8px 14px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .tech { background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); color: #a5b4fc; }
+    .personal { background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.3); color: #fbcfe8; }
+
+    .two-column {
+        display: flex;
+        gap: 20px;
+    }
+    .two-column .glass-card { flex: 1; }
+
+    .goals-list {
+        list-style-position: inside;
+        line-height: 1.8;
+        color: #e2e8f0;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    /* Карталардын стили */
+    .project-card {
+        display: block;
+        text-decoration: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+    }
+    .project-card:hover {
+        transform: translateY(-5px);
+        border-color: rgba(99, 102, 241, 0.4);
+        box-shadow: 0 10px 20px rgba(99, 102, 241, 0.1);
+    }
+    .project-icon { font-size: 2.5rem; margin-bottom: 15px; }
+    .project-card h3 { margin-bottom: 10px; color: #f1f5f9; }
+    .project-card p { color: #94a3b8; font-size: 0.95rem; line-height: 1.5; }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 15px;
+    }
+    .contact-item {
+        background: rgba(255, 255, 255, 0.02);
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .contact-item a {
+        color: #6366f1;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .contact-item a:hover { color: #ec4899; text-decoration: underline; }
+
+    .tab-section {
+        display: none;
+    }
+    .active-section {
+        display: block;
+        animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .back-zone { text-align: center; }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        color: #64748b;
+        font-size: 0.9rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+        h1 { font-size: 2rem; }
+        .nav-buttons { flex-direction: column; width: 100%; max-width: 300px; margin: 0 auto 25px; }
+        .skills-section, .two-column { flex-direction: column; gap: 0; }
+        .glass-card { padding: 20px; }
+    }
+    </style>
+</body>
+</html>
